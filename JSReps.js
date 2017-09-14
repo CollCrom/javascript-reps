@@ -28,3 +28,12 @@ const letterReverse = (s) => {
 		wordArr[i] = wordArr[i].split('').reverse().join('');
 	return wordArr.join(' ');
 };
+
+const longest = (arr) => {
+	let long = '';
+	for(let i = 0; i < arr.length; i++){
+		if(arr[i].length > long.length)
+			long = arr[i];
+	}
+	return long;
+};
