@@ -37,3 +37,7 @@ const longest = (arr) => {
 	}
 	return long;
 };
+
+const repMaster = (input, f) => {
+	return f(input) + ' proves that I am the rep MASTER!!!!!!!';
+};
