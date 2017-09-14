@@ -21,3 +21,10 @@ const toonify = (accent, sentence) => {
 const wordReverse = (s) => {
 	return s.split(' ').reverse().join(' ');
 };
+
+const letterReverse = (s) => {
+	wordArr = s.split(' ');
+	for(let i = 0; i < wordArr.length; i++)
+		wordArr[i] = wordArr[i].split('').reverse().join('');
+	return wordArr.join(' ');
+};
