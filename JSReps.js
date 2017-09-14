@@ -18,3 +18,6 @@ const toonify = (accent, sentence) => {
 		return sentence;
 };
 
+const wordReverse = (s) => {
+	return s.split(' ').reverse().join(' ');
+};
